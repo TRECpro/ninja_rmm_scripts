@@ -1,4 +1,4 @@
-﻿##wrote by jgerman03 - use this script to create a new user account, set as a local administrator, with password, and hidden from login (if needed) ##
+﻿##wrote by jgerman03 - use this script to create a new user account, set as a local administrator, with password, and hidden from login (if needed)##
 
 ## Change the following as needed "username" and "password" ##
 ## Run this schedule on demand or a scheduled basis within NinjaRMM as SYSTEM ##
