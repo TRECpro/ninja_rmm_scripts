@@ -1,0 +1,3 @@
+## Run as SYSTEM ##
+
+$net = get-netconnectionprofile;Set-NetConnectionProfile -Name $net.Name -NetworkCategory Public
