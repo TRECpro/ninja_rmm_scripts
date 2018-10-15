@@ -20,4 +20,4 @@ expand-archive -path 'C:\tools\ais-tools.zip' -destinationpath 'C:\tools\ ' -For
 
 
 ## Cleans up downloaded .zip file ##
-Remove-Item c:\system\*.zip
+Remove-Item c:\tools\*.zip
