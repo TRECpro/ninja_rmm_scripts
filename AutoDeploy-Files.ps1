@@ -1,5 +1,4 @@
 ## Cleans Directory before script runs ##
-
 Remove-Item c:\tools\*.*
 
 ## Download deployment tools from internet based file repo (filecloud, dropbox, S3, etc) ##
@@ -17,10 +16,8 @@ Start-BitsTransfer -Source $url -Destination $output
 Write-Output "Time taken: $((Get-Date).Subtract($start_time).Seconds) second(s)"
 
 ## Extracts aistools.zip to c:\tools\ais-tools\* ##
-
 expand-archive -path 'C:\tools\ais-tools.zip' -destinationpath 'C:\tools\ ' -Force
 
 
 ## Cleans up downloaded .zip file ##
-
 Remove-Item c:\system\*.zip
