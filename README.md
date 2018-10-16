@@ -2,7 +2,7 @@
 
 Welcome to the ninja_rmm_scripts wiki!
 
-Scripts for the NinjaRMM. Many of these scripts will also work outside of the NinjaRMM. No association with NinjaRMM is implied. Use at your own risk. PLEASE test before running within production environments! Scripts provided by members of the NinjaRMM Group on facebook. https://www.facebook.com/groups/NinjaRMM/
+Scripts for the NinjaRMM. Many of these scripts will also work outside of the NinjaRMM. No association with NinjaRMM is implied. USE AT YOUR OWN RISK and PLEASE test before running within production environments! Scripts provided by members of the NinjaRMM Group on facebook. https://www.facebook.com/groups/NinjaRMM/
 
 ### IMPORTANT NOTES FOR USE
 
