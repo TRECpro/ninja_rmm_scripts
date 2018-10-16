@@ -6,7 +6,7 @@ Make sure you change the variables to match your business information
 
 Logo needs to be in BMP format, 120 x 120 pixels
 
-Upload your logo to Syncro - name it "logo.bmp"
+Upload your logo to the PC and name it "logo.bmp"
 Set up the file to download to:  c:\windows\temp\logo.bmp
 
 
