@@ -2,7 +2,7 @@
 Remove-Item c:\tools\*.*
 
 ## Download deployment tools from internet based file repo (filecloud, dropbox, S3, etc) 
-## URL = internet accessible address for downloads #
+## URL = internet accessible address for downloads
 ## Output = local destination 
 
 $url = "http://aplg8.net/repo/aistools.zip"
