@@ -1,0 +1,3 @@
+#Simple one-line code to disable hibernation using .bat file
+
+powercfg.exe /h off
