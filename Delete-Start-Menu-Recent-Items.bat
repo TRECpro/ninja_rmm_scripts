@@ -1,0 +1,1 @@
+del "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Recent\*.*" /Q

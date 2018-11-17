@@ -1,0 +1,2 @@
+MsgBox "There is an issue or concern that requires your attention or input. Please call us at your earliest convenience at (555) 555-5555" & vbCr & vbCr & vbCr & "Thank You," & vbCr & "Your Favorite Techs"  & vbCr & "The Best Tech Company",vbExclamation,"WARNING!!!"
+WScript.Sleep(10000)

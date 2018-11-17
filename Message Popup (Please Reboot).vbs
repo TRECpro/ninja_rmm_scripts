@@ -1,0 +1,2 @@
+MsgBox "Please ensure all of your programs and documents are saved and reboot at your earliest convenience." & vbCr & vbCr & vbCr & "Thank You," & vbCr & "Your Favorite Techs"  & vbCr & "The Best Tech Company",vbExclamation,"WARNING!!!"
+WScript.Sleep(10000)

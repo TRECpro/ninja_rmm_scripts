@@ -1,0 +1,1 @@
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{50663102-6BFE-4C83-AA88-BCF156EC51E8}" /v SystemComponent /t REG_DWORD /d 1 /f
