@@ -1,0 +1,5 @@
+## From Ninja feature request forum, user David Yoder
+## Requires booting in safe mode with networking.
+## Warning! This will generate lots of errors if Ninja is monitoring services that do not start in safe mode.
+
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\SafeBoot\Network\NinjaRMMAgent" /ve /t Reg_SZ /f /d "Service"
