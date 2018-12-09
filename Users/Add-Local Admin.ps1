@@ -1,10 +1,10 @@
-﻿# Wrote by jgerman03 - use this script to create a new user account, set as a local administrator, with password, hidden from login (if needed)
+﻿# Original script by jgerman03, additions by TRECpro. - use this script to create a new user account, set as a local administrator, with password, hidden from login (if needed)
 
-# Change the following as needed "username" & "password" 
-# Run this script on demand or a scheduled basis within NinjaRMM as SYSTEM 
+# Change "admin" below as needed. Password is populated from Ninja parameters.
+# Run this script on demand or a scheduled basis within NinjaRMM as SYSTEM
 
 $Username = "admin"
-$Password = "password"
+$Password = $args[0]
 
 $group = "Administrators"
 
@@ -25,10 +25,10 @@ else {
     $existing.SetPassword($Password)
 }
 
-# Sets password as never expires 
+# Sets password as never expires
 Write-Host "Ensuring password for $Username never expires."
 & WMIC USERACCOUNT WHERE "Name='$Username'" SET PasswordExpires=FALSE
 
-# Hides User Account from Login page 
+# Hides User Account from Login page
 $path = 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList'
 New-Item $path | New-ItemProperty -Name admin -Value 0 -PropertyType DWord
